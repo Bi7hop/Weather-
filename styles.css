@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#map {
+    width: 100vw;
+    height: 100vh;
+}
+
+.leaflet-control-geocoder {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+
+.popup-content {
+    text-align: center;
+}
+
+.city-weather {
+    margin-top: 10px;
+}
+
+.city-weather h1 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.city-weather p {
+    margin: 5px 0;
+    font-size: 14px;
+}
